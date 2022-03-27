@@ -1,0 +1,16 @@
+.image1{
+ text-align: center;
+ float: left; 
+ margin-right: 50px;
+}
+
+.image2{
+  text-align: center;
+  float: left;
+  margin-left: 50px; 
+ }
+
+ .bt{
+   background-color: blue;
+   color: red;
+ }

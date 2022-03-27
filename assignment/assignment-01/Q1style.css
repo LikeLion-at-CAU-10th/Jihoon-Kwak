@@ -1,0 +1,21 @@
+.Myname{
+  color: blueviolet;
+}
+
+.Mymajor{
+  color: gray;
+}
+
+.Line {
+  border: none;
+  border-top: 20px dotted aqua;
+  width: 900px;
+  margin-left: 0;
+}
+
+.Box{
+  border: 5px solid black;
+  padding: 50px;
+  width: 50%;
+}
+
