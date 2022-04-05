@@ -163,3 +163,8 @@ div {
   background-color: palegreen;
   align-items: center;
 }
+
+.letter{
+  margin-top: 25px;
+  margin-left: 80px;
+}
