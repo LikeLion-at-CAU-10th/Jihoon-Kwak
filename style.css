@@ -1,0 +1,38 @@
+div {
+  text-align: center;
+  margin-top: 230px;
+  font-size: 90px;
+}
+
+div span:nth-child(1){
+  color: #4285f4;
+}
+div span:nth-child(2){
+  color: #ea4335;
+}
+
+div span:nth-child(3){
+  color: #fbbc05;
+}
+
+div span:nth-child(4){
+  color: #4285f4;
+}
+
+div span:nth-child(5){
+  color: #34a853;
+}
+
+div span:nth-child(6){  
+  color: #fbbc05;
+}
+
+div span:nth-child(7){
+  color: #ea4335;
+}
+
+form{
+  text-align: center;
+  margin-top: 30px;
+  height: 50px;
+}
