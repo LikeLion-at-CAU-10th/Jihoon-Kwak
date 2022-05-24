@@ -7,4 +7,4 @@
   <div>2. setting파일에 live server의 Host를 입력해야 하는 칸에서 계속해서 server Host를 입력하고 있었다.<div>
   <div>3. push가 안됐다. 조력자의 말로는 내 폴더가 너무 지저분하다고 했다. 그래서 push가 안되는 거라고 했다. 자세하게 알아보고 정리를 좀 해야겠다.<div>
     
-    
+  <img src="https://user-images.githubusercontent.com/101690974/170092728-ac597ac4-0b02-4d44-93e0-3576b5576b77.png">
