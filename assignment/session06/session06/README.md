@@ -11,7 +11,7 @@
    <div>여기서 liveserver의 host를 올렸어야 했는데 계속 django server의 호스트를 올렸습니다.<div>
     
     
-   <img src=" https://user-images.githubusercontent.com/101690974/170091839-2f901534-6247-4581-8d7e-f2cdb424488b.png">
+   <img src="https://user-images.githubusercontent.com/101690974/170091839-2f901534-6247-4581-8d7e-f2cdb424488b.png">
    <div> 실패원인3 계속 push가 되지 않는 상황에 있었습니다. 결국 같은 폴더로 clone을 받아서 했지만 정리를 잘 해놔야 겠습니다.<div>
    
   <img src="https://user-images.githubusercontent.com/101690974/170092728-ac597ac4-0b02-4d44-93e0-3576b5576b77.png">
