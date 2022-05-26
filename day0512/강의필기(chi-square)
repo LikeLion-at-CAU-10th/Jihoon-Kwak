@@ -1,0 +1,36 @@
+5/12일 강의
+list square method에서 chi-square method(작년 시험 기출문제)
+
+x^2 = n[sum](i=1) (x_i - m_i)^2/6_i^2
+불확정성을 고려한 값 피팅
+x_i = observed data
+m_i = Known mean (model)
+6_i = Uncertainties for a data point
+(x_i - m_i)^2 = 관찰값과 모델값의 거리의 제곱이다.
+
+true value = 정해진 값 측정에 의한 값이 아닌 정해진 이론값
+
+ex1) 10대가 이론값인 버스를 관찰
+    - 첫번째로 12대가 측정됨 x_1 = 12, m_1 = 10, 6_1 = (12)^1/2 = 3.5 --> 4/12
+    - 두번째로 7대가 측정됨  x_2 = 7, m_2 = 10, 6_2 = (7)^1/2 = 2.6 --> 9/7
+    - 세번째로 10대가 측정됨 x_3 = 10, m_3 = 10, 6_3 = (10)^1/2 = 3.2 --> 0
+
+ex2) cmrwjdrkqtdl 7, 9, 12, 10으로 관찰
+    - x_1 = 7, x_2 = 9, x_3 = 12, x_4 = 10
+    - true value를 조정해 가면서 가장 이상적인 true value값을 찾는다.
+    - 1) m_i = 16으로 측정  --> X^2_(a=16) = 21.9
+    - 2) m_i = 7로 측정  --> X^2_(a=7) = 3.4 --> 16일때 보다는 훨씬 이상적인 값이라고 말할 수 있다.
+    - 3) m_i = 9로 측정  --> X^2_(a=9) = 1.5 --> 가장 이상적인 값이라고 말할 수 있다.
+    - 4) 이러한 fitting과정을 chi-squre method라고 말한다.
+
+NDF = number of degrees of freedom -->model값을 특정하는 과정에서 측정된 모르는 unknown값의 수를 측정 데이터의 수에서 뺀값을 말한다.
+                                      NDF값이 0에 수렴할 수록 fitting을 진행한 과정이 fitting보다는 connecting에 가까웠다고 말할 수 있다.
+
+chi-square goodness of fitting을 결정!
+    1) 상수함수 m_i = 0 model
+       NDF = 3
+       X^2_mini = 1.41
+       X^2_mini / NDF 값이 1에 가까우면 fitting이 괜찮다 라고 말한다.
+       값을 계산하였을때 1보다 너무 작거나 1보다 너무 큰경우는 좋은 fitting이 아니다.
+       100번의 측정시 68번 정도의 숫자만 범위안에 존재하여야 한다.
+       ref) 1에 가깝다는것을 어떡해 판단할 수 있을까?
