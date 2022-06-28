@@ -53,20 +53,4 @@ test_loss, test_acc = model.evaluate(test_images, test_labels)
 
 print("Accuracy (test sample) = ", test_acc)
 
-
-
 predictions = model.predict (test_images)
-
-
-print ("Predict for [5908]-th image", predictions[5908])
-
-
-print ("Max of prediction", np.argmax( predictions[5908] ))
-
-
-print("True Answer = ", test_labels[5908])
-
-
-plt.figure()
-plt.imshow(test_images[5908])
-plt.show()

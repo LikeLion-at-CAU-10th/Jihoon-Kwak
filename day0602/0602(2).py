@@ -28,24 +28,24 @@ class_name = ['T-shirt/top',
 # print(train_labels[19999])
 
 
-# print(test_images[9999])
-# print(test_labels[9999])
+print(test_images[5908])
+print(test_labels[5908])
 
 
 plt.figure(figsize=(10,10))
 # plt.imshow(train_images[19999])
 
 
-for i in range(25) :
-  plt.subplot(5,5,i+1)
-  plt.xticks([]) #remove tick markss
-  plt.yticks([]) #remove tick marks
-  plt.grid(False) #remove grid
+# for i in range(25) :
+#   plt.subplot(5,5,i+1)
+#   plt.xticks([]) #remove tick markss
+#   plt.yticks([]) #remove tick marks
+#   plt.grid(False) #remove grid
 
-  plt.imshow(train_images[i])
-  plt.xlabel (class_name[train_labels[i]])
+#   plt.imshow(train_images[i])
+#   plt.xlabel (class_name[train_labels[i]])
 
-# plt.imshow(test_images[9999])
-# plt.colorbar()
-# plt.grid(False)
+plt.imshow(test_images[5908])
+plt.colorbar()
+plt.grid(False)
 plt.show()

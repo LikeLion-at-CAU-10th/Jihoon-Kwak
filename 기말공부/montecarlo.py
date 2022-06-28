@@ -28,12 +28,12 @@ random.seed() #PureRandom
 nwin = 0
 ngame = 0
 
-for j in range(0, 10000) : #10번의 게임 진행
+for j in range(0, 10000) : #10000번의 게임 진행
   car_door          =  random.randint(0, 2) # random choice among 0, 1, 2
   player_choice     =  random.randint(0, 2) # random choice among 0, 1, 2
   goat              =  goat_door (car_door, player_choice) # monty shows
-  player_new_choice = change_door (goat, player_choice) #이거 활성화하면 선택바꾸는 거
-  # player_new_choice = player_choice #이거 활성화하면 선택 안바꾸는 거
+  # player_new_choice = change_door (goat, player_choice) #바꾸는거
+  player_new_choice = player_choice #안바꾸는거
 
 
   print("Car = ", car_door, ", Player = ", player_choice, ", Monty shows = ", goat, ", Chage = ",player_new_choice)
