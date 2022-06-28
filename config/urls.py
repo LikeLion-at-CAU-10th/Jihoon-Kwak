@@ -19,7 +19,7 @@ from posts.views import http_response, index, json_response
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', http_response),
+    path('index/', index, name='index'),
+    path('', http_response, name="http_response"),
     path('json/', json_response),
-    path('index/', index, name = 'index'),
 ]
