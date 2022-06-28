@@ -21,3 +21,6 @@ post를 보내니까 이상한 코드가 나온다.
 ![KakaoTalk_20220627_143136931](https://user-images.githubusercontent.com/101690974/176085306-5e28ef9c-8e8f-4365-9c89-28f5b3dc45c4.png)
 
 ![KakaoTalk_20220627_150250436](https://user-images.githubusercontent.com/101690974/176085265-805e17e1-a6eb-44b9-ae65-8eec72ff38ba.png)
+
+
+@@github에서 pull받고 2차 작업하기@@
